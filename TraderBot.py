@@ -4,7 +4,7 @@ from numpy import  where
 
 
 start = dt.datetime(2020,3,1)  
-end = dt.datetime(2021,2,1)
+end = dt.datetime(2021,1,1)
 
 df = web.DataReader('AMZN','yahoo',start,end)
 
